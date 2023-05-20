@@ -7,7 +7,7 @@ import imagePatrick from "./assets/image-patrick.jpg";
 const App = () => {
   return (
     <div className="grid grid-cols-4 gap-7 max-w-6xl p-4">
-      <div className="lg:col-span-2 col-span-full bg-[#7541c8] p-7 rounded-[10px]">
+      <div className="lg:col-span-2 col-span-full bg-[#7541c8] p-7 rounded-[10px] shadow-xl">
         <div className="flex items-center mb-4">
           <img
             src={imageDaniel}
@@ -36,7 +36,7 @@ const App = () => {
           a Software Engineer at a VR startup. ”
         </p>
       </div>
-      <div className="lg:col-start-3 lg:row-start-1 lg:col-span-1 md:col-span-2 col-span-full bg-slate-600 p-7 rounded-[10px]">
+      <div className="lg:col-start-3 lg:row-start-1 lg:col-span-1 md:col-span-2 col-span-full bg-slate-600 p-7 rounded-[10px] shadow-xl">
         <div className="flex items-center mb-4">
           <img
             src={imageJonathan}
@@ -60,7 +60,7 @@ const App = () => {
         </p>
       </div>
 
-      <div className="lg:col-start-1 lg:row-start-2 lg:col-span-1 md:col-span-2 col-span-full bg-white p-7 rounded-[10px]">
+      <div className="lg:col-start-1 lg:row-start-2 lg:col-span-1 md:col-span-2 col-span-full bg-white p-7 rounded-[10px] shadow-xl">
         <div className="flex items-center mb-4">
           <img
             src={imageJeanette}
@@ -83,7 +83,7 @@ const App = () => {
         </p>
       </div>
 
-      <div className="lg:col-span-2 col-span-full bg-slate-900 p-7 rounded-[10px]">
+      <div className="lg:col-span-2 col-span-full bg-slate-900 p-7 rounded-[10px] shadow-xl">
         <div className="flex items-center mb-4">
           <img
             src={imagePatrick}
@@ -109,7 +109,7 @@ const App = () => {
           people. ”
         </p>
       </div>
-      <div className="lg:row-span-2 lg:col-start-4 lg:row-start-1 col-span-full bg-white p-7 rounded-[10px]">
+      <div className="lg:row-span-2 lg:col-start-4 lg:row-start-1 col-span-full bg-white p-7 rounded-[10px] shadow-xl">
         <div className="flex items-center mb-4">
           <img src={imageKira} alt="Kira" className="h-8 rounded-full mr-3" />
           <div className="flex flex-col">
